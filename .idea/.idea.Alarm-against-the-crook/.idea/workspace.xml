@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea7de5a1-9f2a-427b-872b-5457b53de533" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Alarm-against-the-crook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Alarm-against-the-crook/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Alarm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Alarm.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/CrookMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/CrookMover.cs" afterDir="false" />
     </list>
@@ -18,6 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Scripts/Waypoints.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Shaders/Terrain/TerrainLit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -100,6 +102,8 @@
       <workItem from="1742229855471" duration="2797000" />
       <workItem from="1742256508235" duration="3720000" />
       <workItem from="1742260602545" duration="1444000" />
+      <workItem from="1742322831458" duration="1076000" />
+      <workItem from="1742335460337" duration="805000" />
     </task>
     <servers />
   </component>

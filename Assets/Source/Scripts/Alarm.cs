@@ -7,13 +7,13 @@ public class Alarm : MonoBehaviour
     [SerializeField] private float _volumeFadeSpeed = 0.5f;
     [SerializeField] private float _targetMaxVolume = 1f;
     [SerializeField] private float _targetMinVolume = 0f;
-    
-    private void OnTriggerEnter(Collider other)
+
+    public void StartVolumeFade()
     {
         StartCoroutine(FadeIn(_volumeFadeSpeed, _targetMaxVolume));
     }
 
-    private void OnTriggerExit(Collider other)
+    public void StopVolumeFade()
     {
         StartCoroutine(FadeIn(_volumeFadeSpeed, _targetMinVolume));
     }
