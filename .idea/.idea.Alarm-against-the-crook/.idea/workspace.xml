@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea7de5a1-9f2a-427b-872b-5457b53de533" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Alarm-against-the-crook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Alarm-against-the-crook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Alarm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Alarm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/CrookMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/CrookMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/AlarmTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/AlarmTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/House.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/House.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +102,7 @@
       <workItem from="1742260602545" duration="1444000" />
       <workItem from="1742322831458" duration="1076000" />
       <workItem from="1742335460337" duration="805000" />
+      <workItem from="1742337094997" duration="207000" />
     </task>
     <servers />
   </component>
