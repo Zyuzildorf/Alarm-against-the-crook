@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea7de5a1-9f2a-427b-872b-5457b53de533" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Alarm-against-the-crook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Alarm-against-the-crook/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/Alarm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/Alarm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Scripts/CrookMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Source/Scripts/CrookMover.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +98,8 @@
       <workItem from="1742227724457" duration="63000" />
       <workItem from="1742227880097" duration="884000" />
       <workItem from="1742229855471" duration="2797000" />
+      <workItem from="1742256508235" duration="3720000" />
+      <workItem from="1742260602545" duration="1444000" />
     </task>
     <servers />
   </component>
