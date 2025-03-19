@@ -1,12 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class Waypoints : MonoBehaviour
 {
     [SerializeField] private Transform[] _waypointsArray;
-
-    private Transform[] _copiedArray;
     
-    public Transform[] WaypointsArray => CopyArray();
+    public Transform[] WaypointsArray => _waypointsArray.ToArray();
     
     [ContextMenu("GetWaypoints")]
     private void GetWaypoints()
@@ -17,17 +17,5 @@ public class Waypoints : MonoBehaviour
         {
             _waypointsArray[i] = transform.GetChild(i);
         }
-    }
-
-    private Transform[] CopyArray()
-    {
-        _copiedArray = new Transform[_waypointsArray.Length];
-
-        for (int i = 0; i < _waypointsArray.Length; i++)
-        {
-            _copiedArray[i] = _waypointsArray[i];
-        }
-
-        return _copiedArray;
     }
 }

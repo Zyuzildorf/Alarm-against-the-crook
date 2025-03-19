@@ -8,14 +8,26 @@ public class Alarm : MonoBehaviour
     [SerializeField] private float _targetMaxVolume = 1f;
     [SerializeField] private float _targetMinVolume = 0f;
 
+    private Coroutine _coroutine;
+    
     public void StartVolumeFade()
     {
-        StartCoroutine(FadeIn(_volumeFadeSpeed, _targetMaxVolume));
+        if (_coroutine != null)
+        {
+            StopCoroutine(_coroutine);
+        }
+        
+       _coroutine = StartCoroutine(FadeIn(_volumeFadeSpeed, _targetMaxVolume));
     }
 
     public void StopVolumeFade()
     {
-        StartCoroutine(FadeIn(_volumeFadeSpeed, _targetMinVolume));
+        if (_coroutine != null)
+        {
+            StopCoroutine(_coroutine);
+        }
+        
+        _coroutine = StartCoroutine(FadeIn(_volumeFadeSpeed, _targetMinVolume));
     }
 
     private IEnumerator FadeIn(float fadeSpeed, float targetVolume)
